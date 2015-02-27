@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+
+    <div id="conatiner">
+
+    <div id="header">
+      Guess the Number!
+    </div>
+
+    <div id="guess">
+      Guess a number between 1 and 100.
+    </div>
+
+    <div class="submit_form">
+      <form id="user_input" method="post">
+        <input type="text" id="numberGuess" name="numberGuess"></input>
+        <input type="submit" id="submit"></input>
+      </form>
+    </div>
+
+    <div id="results">
+      <ul id="list_results">
+
+      </ul>
+    </div>
+
+    <div id="reset">
+    <input type="submit" value="Reset" onClick="location.reload(true)">
+    </div>
+
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/guess.js"></script>
+
+  	</div>
+  </body>
+</html>

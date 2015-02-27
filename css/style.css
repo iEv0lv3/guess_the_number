@@ -1,0 +1,57 @@
+/** Some default styles, these can be modified or removed. **/
+
+html {
+  background-color: #ccc;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-image: url(../images/whole_foods.jpg);
+	color: #FFFFFF;
+	height: 2000px;
+}
+
+#conatiner {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	font-size: 28pt;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+#guess {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.submit_form {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#results {
+	text-align: center;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 26px;
+}
+
+li {
+	text-align: left;
+}
+
+#reset {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 15px;
+}
